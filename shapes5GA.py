@@ -20,6 +20,10 @@ rTri = Polygon(Point(50, winY - 5),
 rTri.setFill(color_rgb(255,0,0))
 rTri.draw(shapesWin)
 
+gCircle = Circle(Point(55, 55), 50)
+gCircle.setFill(color_rgb (0, 255,0))
+gCircle.draw(shapesWin)
+
 
 shapesWin.getMouse()
 shapesWin.close()
