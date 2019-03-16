@@ -24,6 +24,10 @@ gCircle = Circle(Point(55, 55), 50)
 gCircle.setFill(color_rgb (0, 255,0))
 gCircle.draw(shapesWin)
 
+blRect = Rectangle(Point(winX - 100, winY - 100),
+                  Point(winX - 5, winY - 5))
+blRect.setFill(color_rgb(0,0,0))
+blRect.draw(shapesWin)
 
 shapesWin.getMouse()
 shapesWin.close()
