@@ -29,5 +29,14 @@ blRect = Rectangle(Point(winX - 100, winY - 100),
 blRect.setFill(color_rgb(0,0,0))
 blRect.draw(shapesWin)
 
+pPent = Polygon(Point(winX - 50 , 100),
+                Point(winX - 5, 60),
+                Point(winX - 30, 5),
+                Point(winX - 70, 5),
+                Point(winX - 95, 60))
+pPent.setFill(color_rgb (255, 105, 180))
+pPent.draw(shapesWin)
+
+
 shapesWin.getMouse()
 shapesWin.close()
